@@ -150,7 +150,7 @@ uint32_t gIOPCIFlags = 0
 //           | kIOPCIConfiguratorDeepIdle
 //           | kIOPCIConfiguratorNoSplay
 //			 | kIOPCIConfiguratorNoTB
-//           | kIOPCIConfiguratorIOLog | kIOPCIConfiguratorKPrintf
+             | kIOPCIConfiguratorIOLog | kIOPCIConfiguratorKPrintf
 ;
 
 #define DLOG(fmt, args...)                   \

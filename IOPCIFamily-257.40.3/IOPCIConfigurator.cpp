@@ -54,8 +54,8 @@ extern void mp_rendezvous_no_intrs(
 
 __END_DECLS
 
-#define PFM64_SIZE    (2ULL*GB)
-#define MAX_BAR_SIZE  (1ULL*GB)
+#define PFM64_SIZE    (64ULL*GB)
+#define MAX_BAR_SIZE  (64ULL*GB)
 // NPHYSMAP
 // #define PFM64_MAX     (100ULL*GB)
 
